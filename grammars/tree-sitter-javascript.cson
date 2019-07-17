@@ -70,6 +70,7 @@ scopes:
   'member_expression > property_identifier': 'variable.other.object.property.unquoted'
 
   'formal_parameters > identifier': 'formal-parameter.identifier'
+  'formal_parameters > rest_parameter > identifier': 'formal-parameter.identifier'
 
   'shorthand_property_identifier': [
     {
